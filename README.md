@@ -1,6 +1,6 @@
 # dockge
-Dockge - Gestión contenedores - Docker compose
+Dockge - Gestión contenedores 
 
-Ver en "localhost:5001"
+Ver en "http://localhost:5001"
 
 
