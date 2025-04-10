@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
 
   dockge:
@@ -11,7 +9,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./data:/app/data
-      - ./stacks:/stacks
+      - /opt/stacks:/opt/stacks
     environment:
-      - DOCKGE_STACKS_DIR=/stacks
+      - DOCKGE_STACKS_DIR=/opt/stacks
 
