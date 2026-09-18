@@ -1,6 +1,3 @@
-# dockge
-Dockge - Gestión contenedores 
+# Dockge
 
 Ver en "http://localhost:5001"
-
-
